@@ -1,4 +1,5 @@
-export let cart = JSON.parse(localStorage.getItem('cart'))
+// export let cart = JSON.parse(localStorage.getItem('cart'))
+export let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 // [{
 //     courseId: '6iK229-0a7V6-19qj78-40e66B',
